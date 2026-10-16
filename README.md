@@ -1,12 +1,12 @@
 # steam-monitor
 
-Automated repository for tracking and publishing Steam client data.
+Automatically published Steam client data. Do not edit by hand.
 
-This repository's `main` branch contains the automation workflow only. The data is maintained separately on orphan branches.
+The data lives on separate orphan branches — this branch (`main`) only carries the workflow that keeps them up to date.
 
 | Branch | Description |
 | --- | --- |
 | [`pattern`](../../tree/pattern) | Steam client pattern definitions |
 | [`ipc`](../../tree/ipc) | Steam client IPC interface definitions |
 
-Updates are triggered by new Steam client builds and published automatically. Branch updates use fast-forward operations to preserve the existing commit history.
+Branches are updated within seconds of a new client build being published.
