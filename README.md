@@ -1,10 +1,10 @@
 # Steam Client Rule Patterns
 
-Automatically published by Auto-Dumper. Do not edit by hand.
+This file is generated and published automatically by Auto-Dumper. Avoid manual changes, as updates may overwrite them.
 
-## Latest Steam client versions
+## Latest Steam Client Builds
 
-The version number is the client build's Unix timestamp; the Updated column shows it in UTC.
+The version value represents the client build's Unix timestamp. The `Updated (UTC)` column displays the corresponding time in Coordinated Universal Time.
 
 | Channel | Version | Updated (UTC) |
 | --- | --- | --- |
