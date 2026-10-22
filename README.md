@@ -1,6 +1,6 @@
 # Steam Client IPC Interfaces
 
-Automatically published by OSTPatternDumper. Do not edit by hand.
+Automatically published by Auto-Dumper. Do not edit by hand.
 
 ## Latest Steam client versions
 
