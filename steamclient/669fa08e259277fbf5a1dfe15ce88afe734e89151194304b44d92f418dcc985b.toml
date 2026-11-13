@@ -1,0 +1,151 @@
+[IClientUser]
+interface_id = 1
+vtable_rva = "0x1357D28"
+
+[IClientUser.GetSteamID]
+method_index = 10
+funcHash = "0xD6FC3200"
+wrapper_rva = "0x7B8EA0"
+fencepost = "0xD7058CA5"
+argc = 0
+
+[IClientUser.GetAppOwnershipTicketExtendedData]
+method_index = 106
+funcHash = "0xC7E71244"
+wrapper_rva = "0x7815B0"
+fencepost = "0xC844D740"
+argc = 2
+
+[IClientUser.RequestEncryptedAppTicket]
+method_index = 121
+funcHash = "0x25D6BB1C"
+wrapper_rva = "0x884EC0"
+fencepost = "0x2646F563"
+argc = 2
+
+[IClientUser.GetEncryptedAppTicket]
+method_index = 122
+funcHash = "0xE0468CB5"
+wrapper_rva = "0x794140"
+fencepost = "0xE0B84102"
+argc = 1
+
+[IClientUtils]
+interface_id = 4
+vtable_rva = "0x135D7B0"
+
+[IClientUtils.GetAppID]
+method_index = 19
+funcHash = "0x09607EC2"
+wrapper_rva = "0x780310"
+fencepost = "0x0AFEF352"
+argc = 0
+
+[IClientUtils.GetAPICallResult]
+method_index = 24
+funcHash = "0x2D3D3979"
+wrapper_rva = "0x77C150"
+fencepost = "0x2EDFDD1A"
+argc = 3
+
+[IClientUserStats]
+interface_id = 11
+vtable_rva = "0x1361768"
+
+[IClientUserStats.GetNumAchievements]
+method_index = 3
+funcHash = "0x6BA46CDD"
+wrapper_rva = "0x7A9C90"
+fencepost = "0x6E6AF699"
+argc = 1
+
+[IClientUserStats.GetAchievementName]
+method_index = 4
+funcHash = "0xA7A4419F"
+wrapper_rva = "0x77CF40"
+fencepost = "0xAA6B0A5C"
+argc = 2
+
+[IClientUserStats.RequestCurrentStats]
+method_index = 5
+funcHash = "0x0EE4CBEE"
+wrapper_rva = "0x884700"
+fencepost = "0x11AC12AD"
+argc = 2
+
+[IClientUserStats.GetAchievement]
+method_index = 12
+funcHash = "0x6D29A975"
+wrapper_rva = "0x77C830"
+fencepost = "0x6FF85252"
+argc = 2
+
+[IClientUserStats.SetAchievement]
+method_index = 13
+funcHash = "0xF991AC68"
+wrapper_rva = "0x88FEA0"
+fencepost = "0xFC61904A"
+argc = 2
+
+[IClientUserStats.ClearAchievement]
+method_index = 14
+funcHash = "0x65856969"
+wrapper_rva = "0x767840"
+fencepost = "0x6855CB4D"
+argc = 2
+
+[IClientUserStats.StoreStats]
+method_index = 16
+funcHash = "0x7497CF6E"
+wrapper_rva = "0x8B1D90"
+fencepost = "0x7764BF44"
+argc = 1
+
+[IClientUserStats.BGetAchievementIconURL]
+method_index = 18
+funcHash = "0x0EFE045C"
+wrapper_rva = "0x752060"
+fencepost = "0x11D70363"
+argc = 4
+
+[IClientUserStats.GetAchievementDisplayAttribute]
+method_index = 19
+funcHash = "0x7024EABF"
+wrapper_rva = "0x77CBE0"
+fencepost = "0x72FEE5CA"
+argc = 3
+
+[IClientUserStats.IndicateAchievementProgress]
+method_index = 20
+funcHash = "0x94B763FD"
+wrapper_rva = "0x869FF0"
+fencepost = "0x9791DD0A"
+argc = 4
+
+[IClientUserStats.ResetAllStats]
+method_index = 27
+funcHash = "0x66D391DF"
+wrapper_rva = "0x888B70"
+fencepost = "0x69B6A80F"
+argc = 2
+
+[IClientUserStats.GetNumAchievedAchievements]
+method_index = 40
+funcHash = "0x235AD59E"
+wrapper_rva = "0x7A9AF0"
+fencepost = "0x264745F4"
+argc = 1
+
+[IClientUserStats.GetMostAchievedAchievementInfo]
+method_index = 44
+funcHash = "0x58AE0558"
+wrapper_rva = "0x7A80A0"
+fencepost = "0x5B9DA8BB"
+argc = 2
+
+[IClientUserStats.GetNextMostAchievedAchievementInfo]
+method_index = 45
+funcHash = "0x4D9BF37A"
+wrapper_rva = "0x7A93B0"
+fencepost = "0x508EC9EA"
+argc = 3
